@@ -1,4 +1,4 @@
-class insertionSort {
+class InsertionSort {
     static void insert(int arr[], int i) {
         // Your code here
         int j = i - 1; // size of sorted array
