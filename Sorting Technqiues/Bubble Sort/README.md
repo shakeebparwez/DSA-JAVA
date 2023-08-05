@@ -14,7 +14,7 @@ Bubble Sort is a simple sorting algorithm that repeatedly steps through the list
 ## Java Implementation
 
 ```java
-class Solution {
+class BubbleSort {
     public static void bubbleSort(int arr[], int n) {
         for (int i = 0; i < n; i++) { // number of passes
             boolean flag = false;

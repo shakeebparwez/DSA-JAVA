@@ -1,4 +1,4 @@
-class Solution
+class BubbleSort
 {
     //Function to sort the array using bubble sort algorithm.
 	public static void bubbleSort(int arr[], int n)
