@@ -38,7 +38,7 @@ class Solution {
             }
         }
 
-        // if the the stack is empty after the full iteration that means all parenthesis are balanced
+        // if the the stack is empty after the full iteration that means all parentheses are balanced
         if(stk.isEmpty())
         {
             return true;
