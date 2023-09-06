@@ -1,6 +1,6 @@
 class Solution {
     public ListNode[] splitListToParts(ListNode head, int k) {
-        // create the split array tom store the heads of each split portion
+        // create the split array to store the heads of each split portion
         ListNode[] split = new ListNode[k];
 
         // if list is empty simply return the array containing null
@@ -22,7 +22,7 @@ class Solution {
         // find the quotient that is the minimum number of nodes in each sub list
         int quotient = length / k;
 
-        // remainder will be the extra nodes in each sub list
+        // remainder will be the extra nodes that are left out
         int remainder = length % k;
 
         // start splitting the list into k parts
